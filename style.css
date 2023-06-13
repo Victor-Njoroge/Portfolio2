@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+.home header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: .5rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    height: fit-content;
+}
+.home header .logo img{
+    width: 5rem;
+}
+.home header .navigation ul li{
+    display: inline-block;
+}
+.home header .navigation ul li a{
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    color: black;
+    transition: .5s;
+}
+.home header .navigation ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.home .main_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin-top: 6rem;
+}
+.home .main_content .details h1{
+    align-items: center;
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+}
+.home .main_content .details h3{
+    align-items: center;
+    text-align: center;
+    color: green;
+    font-size: 1.5rem;
+}
+
+.home .main_content .details p{
+    width: 30rem;
+    margin-top: 10px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    line-height: 1.5rem;
+}
+ .home .main_content .details .info ul li{
+    font-size: .8rem;
+    display: inline-block;
+    align-self: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+ }
+
+.home .main_content .details .button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+}
+.home .main_content .details .button .cv {
+    width: fit-content;
+    background: red;
+    padding: .9rem 3.5rem;
+    border-radius: .8rem;
+}
+.home .main_content .details .button .cv a{
+    color: white;
+    font-size: 1rem;
+}
+.home .main_content .details .button .hire{
+    width: fit-content;
+    background: green;
+    padding: .9rem 3.5rem;
+    border-radius: .8rem;
+}
+.home .main_content .details .button .hire a{
+    color: white;
+    font-size: 1rem;
+}
+.home .main_content .main_image img{
+    width: 35rem;
+    margin: 1.5rem;
+}
+
+.home .more{
+    width: 100%;
+    top: 4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   justify-content: center;
+    
+}
+.home .more .box{
+    margin: 10px;
+    box-shadow: .5rem .5rem .5rem .5rem rgba(0, 0, 0, .1);
+    padding: .6rem 2.5rem;
+}
+.home .more .box h3{
+    font-size: 1rem;
+}
+.home .more .box p{
+    font-size: .8rem;
+    margin-top: .3rem;
+}
+
+
+.portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .5rem;
+    margin-top: 6rem;
+}
+.portfolio .pic img{
+    width: 40rem;
+    margin: .8rem;
+}
+.portfolio .detail{
+    margin-left: 3rem;
+}
+.portfolio .detail h3{
+    font-size: 1.8rem;
+    align-items: center;
+    text-align: center;
+    color: red;
+}
+.portfolio .detail h4{
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    color: green;
+}
+.portfolio .detail p{
+    line-height: 1.5rem;
+    width: 30rem;
+    margin-left: 3rem;
+    font-size: .8rem;
+}
+.portfolio .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.portfolio .icons ul li{
+    display: inline-block;
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+
+
+
+.contact .heading{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: green;
+}
+.contact .heading span{
+    justify-content: space-around;
+    font-size: 2rem;
+    color: red;
+}
+ .contact .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 3rem;
+ }
+ .contact .row form{
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border: .1rem solid rgba(0, 0, 0, .1);
+    margin-left: 3rem;
+    border-radius: .8rem;
+}
+
+.contact .row .image{
+    flex: 1 1 40rem;
+}
+
+.contact .row .image img{
+    width: 36rem;
+}
+
+.contact .row form .box{
+    padding: .8rem;
+    font-size: .8rem;
+    color: black;
+    text-transform: none;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    width: 30rem;
+}
+.contact .row form .btn{
+    display: inline-block;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    border-radius: 5rem;
+    background: red;
+    border: 1px solid red;
+    color: #fff;
+    padding: .9rem 2.5rem;
+    cursor: pointer;
+    font-size: .8rem;
+}
